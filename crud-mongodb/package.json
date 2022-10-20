@@ -1,0 +1,21 @@
+{
+  "name": "crud-mongodb",
+  "version": "1.0.0",
+  "description": "Módulo de primeiros passos no curso de Node - Alura",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alberto Lima",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6"
+  }
+}
