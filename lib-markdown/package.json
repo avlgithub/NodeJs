@@ -1,0 +1,19 @@
+{
+  "name": "lib-markdown",
+  "version": "1.0.0",
+  "description": "Projeto baseado no curso ALURA Curso de NodeJS: criando sua biblioteca",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clifile:valida": "node ./src/cli.js ./sample/sample.md --valida",
+    "clifile": "node ./src/cli.js ./sample/sample.md",
+    "clidir": "node ./src/cli.js ./sample"
+  },
+  "keywords": [],
+  "author": "Alberto Lima",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "5.0.1"
+  }
+}
